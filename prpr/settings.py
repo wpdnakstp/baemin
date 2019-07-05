@@ -55,7 +55,7 @@ ROOT_URLCONF = 'prpr.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['prpr/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
